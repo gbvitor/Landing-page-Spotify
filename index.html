@@ -4,6 +4,11 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Spotify</title>
+        <link
+            rel="shortcut icon"
+            href="./assets/icons/favicon.png"
+            type="image/x-icon"
+        />
         <link rel="stylesheet" href="reset.css" />
         <link rel="stylesheet" href="styles.css" />
         <script
@@ -12,36 +17,63 @@
         ></script>
     </head>
     <body>
-        <div class="sidebar">
+        <aside class="sidebar">
             <nav class="sidebar__navigation">
-                <div>
-                    <div class="logo">
-                        <a href="">
-                            <img
-                                src="./assets/icons/logo-spotify.png"
-                                alt="logo do Spotify"
-                            />
-                        </a>
-                    </div>
-
-                    <ul>
-                        <li>
-                            <a href=""
-                                ><span><i class="fa-solid fa-house"></i></span>
-                                <span>Início</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <span
-                                    ><i class="fa-solid fa-magnifying-glass"></i
-                                ></span>
-                                <span>Buscar</span>
-                            </a>
-                        </li>
-                    </ul>
+                <div class="logo">
+                    <a href="">
+                        <img
+                            src="./assets/icons/logo-spotify.png"
+                            alt="logo do Spotify"
+                        />
+                    </a>
                 </div>
+
+                <ul>
+                    <li>
+                        <a href=""
+                            ><span><i class="fa-solid fa-house"></i></span>
+                            <span>Início</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span
+                                ><i class="fa-solid fa-magnifying-glass"></i
+                            ></span>
+                            <span>Buscar</span>
+                        </a>
+                    </li>
+                </ul>
             </nav>
-        </div>
+            <div class="library">
+                <div class="library__content">
+                    <button class="library__button">
+                        <span class="fa-solid fa-book"></span>
+                        <span>Sua Biblioteca</span>
+                    </button>
+                    <span class="fa fa-plus"></span>
+                </div>
+                <section class="section-playlist">
+                    <div class="section-playlist__content">
+                        <span class="text title"
+                            >Crie sua primeira playlist</span
+                        >
+                        <span class="text subtitle"
+                            >É facil, vamos te ajudar</span
+                        >
+                        <button class="section-playlist__button">
+                            Criar playlist
+                        </button>
+                    </div>
+                </section>
+                <div class="cookies"><a href=""></a></div>
+                <div class="languages">
+                    <button class="languages__button">
+                        <span class="fa fa-globe"></span>
+                        <span>Português do Brasil</span>
+                    </button>
+                </div>
+            </div>
+        </aside>
     </body>
 </html>
