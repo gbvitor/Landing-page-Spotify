@@ -1,6 +1,4 @@
-# Titulo
-
-<h1 align="center"> Landing page Spotify clone </h1>
+# Landing page Spotify clone
 
 ## Descrição do Projeto
 
