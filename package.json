@@ -4,12 +4,9 @@
     "description": "<h1 align=\"center\"> Landing page Spotify clone </h1>",
     "main": "script copy.js",
     "dependencies": {
-        "jason-server": "^3.0.0"
+        "json-server": "^0.17.4"
     },
     "scripts": {
         "dev": "json-server --watch api-artists/artists.json --port 3000"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC"
+    }
 }

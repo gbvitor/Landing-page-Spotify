@@ -10,4 +10,4 @@
 
 ## Libs utilizadas
 
-<p align="justify"> json-server </p>
+<p align="justify"> json-server 0.17.4 </p>
